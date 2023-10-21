@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheets/stylesheet.css">
+	</head>
+    <body>
+		<div class="container">
+		<div id="gameContainer" style="width: 600px; margin-left: 0px; overflow:hidden";>
+			<div class="gameElement" id="background"></div>
+			<canvas class="gameElement" id="canvas" width="1200" height="500"></canvas>
+			<span id="counter">30</span>
+			<div class="scoreContainer">
+				<img id="score_picture"src="./images/Glasses.png" width="45" height="45" />
+				<span id="score"></span>
+			</div>
+		</div>
+	</div>
+    </body>
+	<!-- gameManager -->
+	<script src="./gameManager.js"></script> 
+	
+	<!-- drawLayer -->
+    <script src="./canvas.js"></script> 
+	
+	<!-- helpers -->
+	<!-- <script src="./helpers/mouseHelper.js"></script> -->
+	<script src="./helpers/gravityHelper.js"></script>
+
+	<!-- gameObjects -->
+    <script src="./gameObjects/gameObject.js"></script>
+	<script src="./gameObjects/imageObject.js"></script>
+
+	<script src="./gameObjects/moveLevel.js"></script>
+    <script src="./gameObjects/score.js"></script> 
+	<script src="./counter.js"></script>
+
+    <script src="./gameObjects/orlando.js"></script> 
+	<script src="./gameObjects/obstacle.js"></script>
+	<script src="./gameObjects/goodDoor.js"></script>
+	<script src="./gameObjects/badDoor.js"></script>
+	<script src="./gameObjects/glasses.js"></script> 
+	<script src="./gameObjects/plattform.js"></script>
+	<script src="./gameObjects/wall_top.js"></script>
+	<script src="./gameObjects/wall.js"></script>
+	
+	<!--Setup for the game -->
+	<script src="./setup/stageSetup.js"></script> 
+	<script src="./setup/inputHandling.js"></script> 
+
+
+</html>

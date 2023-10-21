@@ -1,0 +1,165 @@
+html {
+    background-color: #ca70cc;
+}
+
+.gameElement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 500px;
+}
+
+#background {
+    background: url("../images/Background_game.png");
+    background-size: cover;
+}
+
+#gameContainer {
+    position: relative; 
+    height: 500px;
+}
+
+#gamewonContainer {
+    position: relative; 
+    height: 500px;
+    width: 600px;
+}
+
+
+#gameoverContainer{
+    background-image: url(../images/Bad_Ending.png);
+    position: relative; 
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #5f08f9 10px;
+    text-align: center;
+
+}
+
+#gamewonContainer{
+    background-image: url(../images/Good_Ending.png);
+    position: relative; 
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #5f08f9 10px;
+    text-align: center;
+
+}
+
+#gameovertimeContainer {
+    background-image: url(../images/Time_Over.png);
+    position: relative; 
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #5f08f9 10px;
+    text-align: center;
+    color: #2b2fb6;
+
+
+}
+
+#startscreenContainer {
+    background-image: url(../images/Start_Screen.png);
+    position: relative; 
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #bb40be 10px;
+    text-align: center;
+    color: black;
+    font-size: 11px;
+
+}
+
+#h1_startscreen {
+    font-size: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h2_startscreen {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.button {
+background-color: #5f08f9;
+font-size: 16px;
+padding: 14px 40px;;
+border-radius: 15px;
+border: white;
+color: white;
+
+}
+
+.button_startscreen {
+    margin-top: 1%;
+    background-color: #5f08f9;
+    font-size: 16px;
+    padding: 10px 20px;;
+    border-radius: 15px;
+    border: white;
+    color: white;
+
+}
+
+#h1_gameover, #h2_gameover, #h1_gameovertime, #h2_gameovertime, #h1_gamewon, #h2_gamewon {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+
+#counter {
+    position: fixed;
+    top: 60;
+    left: 10;
+    font-size: 32px;
+    font-weight: bold;
+    color: #bb40be;
+
+}
+
+#score {
+    position: fixed;
+    top: 20;
+    left: 60;
+    font-size: 32px;
+    font-weight: bold;
+    color: #bb40be;
+
+}
+
+#score_picture {
+    position: fixed;
+    top: 15;
+    left: 10;
+
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #5f08f9 10px;
+}
