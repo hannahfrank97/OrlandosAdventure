@@ -2,6 +2,24 @@ html {
     background-color: #ca70cc;
 }
 
+.playing_div {
+    display: flex;
+    position: absolute;
+    width: 100%;
+  
+
+  
+}
+
+.playing {
+    margin-top: 20%;
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+
+
+}
+
 .gameElement {
     position: absolute;
     top: 0;
